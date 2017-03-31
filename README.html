@@ -2,10 +2,1041 @@
 <html>
 <head>
    <title>源味本鋪｜古早味蛋糕口味</title>
+<style>
+@import 
+url(http://fonts.googleapis.com/css?family=Open+Sans);
+body { 
+   background-color:#EEEDE5;
+}
 
+/* STRUCTURE */
+
+#pagewrap {
+	padding: 30px;
+	weight:1300px;
+	margin: 10px auto;
   
+}
+header {
+	 height:150px;
+	padding: 20 px;
+   display:inline-block;
+}
+#content {
+width: 800px;
+  padding-left:60px;
+	float:left;
+	padding: px px;
+  height:506px;
+}
+
+#middle{
+	width:0px; /* Account for margins + border values */
+	height:506px;
+  float: left;
+	padding: 5px px;
+	margin: 5px;
+}
+
+#sidebar {
+	width: 300px;
+
+	float: left;
+  height:px;
+}
+#content2 {
+	width: 450px;
+	float: left;
+	padding: 5px 15px;
+  height:506px;
+}
+
+#middle2 {
+	width:450px; /* Account for margins + border values */
+	height:506px;
+  float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar2 {
+	width: 400px;
+	padding: 5px 15px;
+	float: left;
+  height:506px;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 1200px) {
+	
+	#pagewrap {
+		
+	}
+	#content {
+		width: 41%;
+		padding: 1% 4%;
+	}
+	#middle {
+		width: 100%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
+	}
+	
+	#sidebar {
+		clear: both;
+		padding: 1% 4%;
+		width: 400px;
+		float: none;
+	}
+
+	header, footer {
+		padding: 1% 4%;
+	}
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+	#content{
+		width: 450px;
+		float: none;
+	}
+	
+	#middle{
+		width: 450px;
+		float: none;
+		margin-left: 0px;
+	}
+	
+	#sidebar{
+		width: 430px;
+		float: none;
+    height:500px;
+	}
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+	header {
+		height: auto;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	#sidebar {
+		display: none;
+	}
+
+}
+
+
+#content {
+	background:;
+}
+#sidebar {
+	background: ;
+}
+header, #content, #middle, #sidebar {
+	margin-bottom: 5px;
+}
+
+#pagewrap, header, #content, #middle, #sidebar {
+	border: solid px #ccc;
+}
+
+.column {
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.content {
+  width: 300px;
+  min-height: 60px;
+  margin: 15px;
+  background-color: white;
+}
+
+ @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
+
+/* Base Styles
+********************************************************************* */
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.5em;
+	line-height: 1.6;
+	font-weight: 400;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #222;
+}
+
+
+#content11 {
+	width: 215px;
+	float: left;
+	padding: 5px 50px;
+}
+
+#content12{
+	width: 350px;
+	float: left;
+	padding: px 1px;
+ 
+}
+#content2{
+	width: 350px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#sidebar11 {
+	width: 350px;
+	padding: 5px 15px;
+	float: right;
+}
+#sidebar12 {
+	width: 210px;
+	padding: 5px 15px;
+	float: right;
+}
+
+
+	
+	
+
+#middle11 {
+	width: 550px; /* Account for margins + border values */
+	float: left;
+	padding: 11px 11px;
+	margin: 10px 11px 11px 11px;
+}
+
+#sidebar11 {
+	
+	padding: px px;
+	float: left;
+  clear: 550px;
+	
+		width: 575px;
+		
+}
+#middle11 {
+	width: 550px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar11 {
+	
+	padding: 6px 25px;
+	float: left;
+  clear: 550px;
+	
+		width: 575px;
+		
+}
+footer { 
+  
+   weight:1300px;
+   height:570px;
+   padding: 3em;
+       background-color: black;
+   
+}
+
+ul::before {
+  color:black;
+    content: " ——";
+}
+ul::after { 
+   color:black;
+    content: " —— ";
+}
+
+b::before {
+  color:white;
+    content: "    ●     ";
+}
+b::after { 
+   color:white;
+    content: "    ●    ";
+}
+table{ background-color: white;
+       padding:0px;
+}
+header{color:gray;
+  background-color:#412517;
+ letter-spacing: 3px;　
+ display: flex;
+padding:-10px
+   
+}
+#ontopDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 130px;
+    z-index: 10000;
+    background-color: #ffffc3;
+    border-width: 1px;
+    border-style: solid;
+   
+    font-size: 16px;
+  color:gray;
+  background-color:#412517;
+ letter-spacing: 3px;　
+
+
+}
+#article {
+  position: absolute;
+   height:100px;
+}
+#123{float:left;
+  
+}
+#12{text-align:center;}
+#fixed {
+position:relative;
+}
+#one {
+position:absolute;;
+background:#412517;
+height:130px;width:100%;
+z-index:1;
+}
+#two {
+position:absolute;;;
+
+height:80px;width:150px;
+z-index:2;
+  left: 90px;;
+}
+#three {
+position:absolute;left:300px;
+
+height:50px;width:1000px;
+z-index:3;
+   font-size: 16px;
+  color:gray;
+  background-color:#412517;
+ letter-spacing: 3px;
+  
+}
+#four{
+    position:absolute;
+
+    right:100px;
+    width:100px;
+    height:100px;
+    background-color:#412517;
+    z-index:4;
+}
+
+-->
+
+{box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+ 
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+ width: auto;
+  
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+#fourtwo{
+    position:absolute;
+
+    
+    width:50px;
+    height:50px;
+    background-color:white;
+   
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>  
    
 </head>
+<div id="ontopDiv">
+<div id="fixed">
+<div id="one"></div>
+<div id="two">
+  <img src="http://www.originalcake.com.tw/sites/default/files/imageblock/sub_ribbon.png" alt="Mountain View" style="width:110px;height:225px;"></div>
+<div id="three">
+  <a href="http://www.originalcake.com.tw/%E9%97%9C%E6%96%BC%E6%BA%90%E5%91%B3" style="text-decoration:none;">關於源味</a><b><a href="http://www.originalcake.com.tw/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF" style="text-decoration:none;">最新消息</a></b><a href="http://www.originalcake.com.tw/%E5%8F%A4%E6%97%A9%E5%91%B3%E8%9B%8B%E7%B3%95%E5%8F%A3%E5%91%B3" style="text-decoration:none;">古早蛋糕口味</a>
+    <a href="http://www.originalcake.com.tw/">
+<img border="0" alt="W3Schools" src="http://www.originalcake.com.tw/sites/default/files/logo_02.png" width="100" height="100" >
+</a><a href="http://www.originalcake.com.tw/%E7%B7%9A%E4%B8%8A%E8%A8%82%E8%B3%BC" style="text-decoration:none;">線上訂購</a><b><a href="http://www.originalcake.com.tw/%E5%88%86%E5%BA%97%E8%B3%87%E8%A8%8A" style="text-decoration:none;">分店資訊</a></b><a href="http://www.originalcake.com.tw/%E8%81%AF%E7%B5%A1%E6%88%91%E5%80%91" style="text-decoration:none;">聯絡我們</a></div>
+
+       <div id="four"><div style="position: relative; border: px solid; width:  height: 120px;">
+        <div style="position: absolute; color: blue; right:50 ;">
+        <a href="https://www.facebook.com/originalcake2000/">
+<img border="0" alt="W3Schools" src="https://image.flaticon.com/icons/svg/54/54065.svg" width="50" height="50">
+</a>
+       </div>
+    </div>
+<div style="position: relative; border: px solid; width: ; height: 120px;">
+        <div style="position: absolute; color: blue; right: 0;">
+        
+ <a href="http://line.naver.jp/ti/p/9Vqgs4MjxA">
+<img border="0" alt="W3Schools" src="https://static.line.naver.jp/line_regulation/files/ver2/LINE_Icon.png" width="50" height="50">
+</a></div>
+         </div>
+  
+</div>
+</div>
+  </div>
+<div id="pagewrap">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	
+	<br><br><br><br>
+  <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="http://www.originalcake.com.tw/sites/default/files/styles/slideshow_style/public/slideshow/slideshow05.png?itok=eAcrQPdK" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="http://www.originalcake.com.tw/sites/default/files/styles/slideshow_style/public/slideshow/2BDA7473-229E-40F1-B0DE-2A2171818EB4.jpg?itok=jW9r26Xx"style="width:100%" >
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade2">
+  <div class="numbertext"></div>
+  <img src="http://www.originalcake.com.tw/sites/default/files/styles/slideshow_style/public/slideshow/slideshow04.jpg?itok=ddb2woP4" style="width:100%">
+  <div class="text"></div>
+</div>
+
+  <div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="http://www.originalcake.com.tw/sites/default/files/styles/slideshow_style/public/slideshow/slideshow05.jpg?itok=5-rkPlAG" style="width:100%">
+  <div class="text"></div>
+</div>
+  <div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="http://www.originalcake.com.tw/sites/default/files/styles/slideshow_style/public/slideshow/slideshow06.jpg?itok=VilUIGVB" style="width:100%">
+  <div class="text"></div>
+</div>
+  
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+  <p>
+<ul style="color: rgb(111, 51, 40); font-family: 微軟正黑體, Helvetica, Arial; font-size: 36px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: bold; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;padding-left:450px">
+  記憶中那古早味</ul></p>
+		
+	<section id="content">
+		<p>	<img src="http://www.originalcake.com.tw/sites/default/files/styles/products_c/public/products/DSC_0587_0.jpg?itok=QQWKbRgg" class="w3-circle" alt="Norway" style="width:50%" align=left ><div class="views-field views-field-title" style=" font-size: 24px; color: rgb(111, 51, 40); font-weight: bold; padding-left: 5px; padding-right: 5px; box-sizing: border-box; word-wrap: break-word; float: left; width: 387.688px; height:387px;  margin-right: -387.688px; font-family: 微軟正黑體,  ">
+			<span class="field-content" style="display: inline-block; padding: 10px 15px; border: 1px solid rgb(111, 51, 40);">
+			人氣蛋糕</span>
+		<div class="views-field views-field-field-cake-name" style="margin-top: 70px; color: rgb(250, 71, 4); font-size: 20px; font-weight: bold; padding-left: 5px; padding-right: 5px; box-sizing: border-box; word-wrap: break-word; clear: left; float: left; width: 387.688px;  margin-right: -387.688px; font-family: 微軟正黑體,     ">
+			<div class="field-content">
+				源味原味口味</div>
+		</div>
+		
+		
+		<div class="views-field views-field-body" style="color: rgb(111, 51, 40); padding-left: 5px; padding-right: 5px; box-sizing: border-box; word-wrap: break-word; clear: left; float: left; width: 387.688px; margin-left: 0px; margin-right: -387.688px; font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+			<div class="field-content">
+				<p style="margin: 1.5em 0px;">
+				口感特別綿密，搭配濃郁的雞蛋鮮奶的味道 ，吃在嘴裡有一種幸福的味道。</p>
+			</div>
+		</div>
+		<div class="views-field views-field-field-link" style="padding-left: 5px; padding-right: 5px; box-sizing: border-box; word-wrap: break-word; clear: left; float: left; width: 387.688px; margin-left: 0px; margin-right: -387.688px; color: rgb(82, 82, 82); font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+			<div class="field-content">
+				<a style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important; font-weight: bold; border-bottom: 2px solid rgba(111, 51, 40, 0.6);" href="http://www.originalcake.com.tw/node/16">
+				了解更多</a></div>
+		</div>
+</p>
+	</section>
+	
+	<section id="middle">
+	
+	</section>
+
+	<aside id="sidebar">
+		 <div class="column">
+ <div class="column">
+    <div class="content"><div class="content"><div class="style1" style="color: rgb(82, 82, 82); font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; ">
+			<span class="field-content" style="padding: 0px 15px;">
+			<a style="color: rgb(82, 82, 82); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: 0px; font-weight: bold;" href="http://www.originalcake.com.tw/分店資訊/淡水中正路清水街市場創始店">
+			淡水中正路清水街市場創始店</a></span></div>
+		<br><div><div class="views-field views-field-field-tel" style="color: rgb(82, 82, 82); font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+			<div class="style1" style="padding: 0px 15px; color: rgb(111, 51, 40);">
+				<a style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important;" href="tel:(02)2620-0685">
+				<img src="https://image.freepik.com/free-icon/auricular-phone-symbol-in-a-circle_318-50200.jpg" alt="Mountain View" style="width:23px;height:22px;">(02)2620-0685</a></div>
+</div>		</div>
+		<div class="views-field views-field-field-address" style="color: rgb(82, 82, 82); font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+			<div class="field-content" style="padding: 0px 15px; color: rgb(111, 51, 40);">
+				<p class="style1" style="margin: 10px 0px;">
+				<a target="_blank" style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important;" href="https://maps.google.com/maps?q=%E6%96%B0%E5%8C%97%E5%B8%82%E6%B7%A1%E6%B0%B4%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF8%E5%B7%B72-1%E8%99%9F&amp;hl=zh-tw&amp;z=14&amp;t=m">
+				<img src="http://bpic.588ku.com/element_pic/00/91/96/0956f18b9523e57.jpg" alt="Mountain View" style="width:23px;height:22px;">新北市淡水區中正路8巷2-1號</a></p>
+			</div>
+		</div>
+</div></div>
+    <div class="content"> <div class="content"><div class="views-field views-field-title" style="color: rgb(82, 82, 82); font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+			<span class="field-content" style="padding: 0px 15px;">
+			<a style="color: rgb(82, 82, 82); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: 0px; font-weight: bold;" href="http://www.originalcake.com.tw/分店資訊/淡水中正路老街旗艦店">
+			淡水中正路老街旗艦店</a></span></div>
+		<br><div class="views-field views-field-field-tel" style="color: rgb(82, 82, 82); font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+			<div class="field-content" style="padding: 0px 15px; color: rgb(111, 51, 40);">
+				<a style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important;" href="tel:(02)2620-5685">
+				<img src="https://image.freepik.com/free-icon/auricular-phone-symbol-in-a-circle_318-50200.jpg" alt="Mountain View" style="width:23px;height:22px;">(02)2620-5685</a></div>
+		</div>
+		<div class="views-field views-field-field-address" style="color: rgb(82, 82, 82); font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+			<div class="field-content" style="padding: 0px 15px; color: rgb(111, 51, 40);">
+				<div class="simple-gmap-link" style="margin: 10px 0px;">
+				<a target="_blank" style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important;" href="https://maps.google.com/maps?q=%E6%96%B0%E5%8C%97%E5%B8%82%E6%B7%A1%E6%B0%B4%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF145%E8%99%9F&amp;hl=zh-tw&amp;z=14&amp;t=m">
+				<img src="http://bpic.588ku.com/element_pic/00/91/96/0956f18b9523e57.jpg" alt="Mountain View" style="width:23px;height:22px;">新北市淡水區中正路145號</a></div>
+			</div>
+		</div>
+</div></div>
+    <div class="content"><div class="content"><div class="views-field views-field-title" style="color: rgb(82, 82, 82); font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+			<span class="field-content" style="padding: 0px 15px;">
+			<a style="color: rgb(82, 82, 82); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: 0px; font-weight: bold;" href="http://www.originalcake.com.tw/分店資訊/淡水捷運站旁公明街站前店">
+			淡水捷運站旁公明街站前店</a></span></div>
+		<div class="views-field views-field-field-tel" style="color: rgb(82, 82, 82); font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+			<div class="field-content" style="padding: 0px 15px; color: rgb(111, 51, 40);">
+				<a style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important;" href="tel:(02)2626-8592">
+				<br><img src="https://image.freepik.com/free-icon/auricular-phone-symbol-in-a-circle_318-50200.jpg" alt="Mountain View" style="width:23px;height:22px;">(02)2626-8592</a></div>
+		</div>
+		<div class="views-field views-field-field-address" style="color: rgb(82, 82, 82); font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+			<div class="field-content" style="padding: 0px 15px; color: rgb(111, 51, 40);">
+				<p class="simple-gmap-link" style="margin: 10px 0px;">
+				<a target="_blank" style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important;" href="https://maps.google.com/maps?q=%E6%96%B0%E5%8C%97%E5%B8%82%E6%B7%A1%E6%B0%B4%E5%8D%80%E5%85%AC%E6%98%8E%E8%A1%9756%E5%B7%B713-1%E8%99%9F&amp;hl=zh-tw&amp;z=14&amp;t=m">
+				<img src="http://bpic.588ku.com/element_pic/00/91/96/0956f18b9523e57.jpg" alt="Mountain View" style="width:23px;height:22px;">新北市淡水區公明街56巷13-1號</a></p>
+			</div>
+		</div>
+</div></div>
+    
+  </div>
+</div>
+  </div>
+</div>
+  </aside>
+	
+	
+
+</div>
+
+
+
+
+	
+<div id="pagewrap">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+	
+	
+		
+	<section id="content">
+		<p><img src="http://www.originalcake.com.tw/sites/default/files/styles/products_c/public/products/DSC_0907_2.jpg?itok=NFvs7XIb" class="w3-circle" alt="Norway" style="width: 50%"align=right >
+    <div class="views-field views-field-title" style=" font-size: 24px; color: rgb(111, 51, 40); font-weight: bold; padding-left: 5px; padding-right: 5px; box-sizing: border-box; word-wrap: break-word; float: left; width: 387.688px;  margin-right: -387.688px; font-family: 微軟正黑體,  ">
+			<span class="field-content" style="display: inline-block; padding: 10px 15px; border: 1px solid rgb(111, 51, 40);">
+			人氣蛋糕</span>
+		<div class="views-field views-field-field-cake-name" style="margin-top: 70px; color: rgb(250, 71, 4); font-size: 20px; font-weight: bold; padding-left: 5px; padding-right: 5px; box-sizing: border-box; word-wrap: break-word; clear: left; float: left; width: 387.688px;  margin-right: -387.688px; font-family: 微軟正黑體,     ">
+			<div class="field-content">
+				黃金起司口味</div>
+		</div>
+		
+		
+		<div class="views-field views-field-body" style="color: rgb(111, 51, 40); padding-left: 5px; padding-right: 5px; box-sizing: border-box; word-wrap: break-word; clear: left; float: left; width: 387.688px; margin-left: 0px; margin-right: -387.688px; font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+			<div class="field-content">
+				<p style="margin: 1.5em 0px;">
+				綿密細緻的口感，清新淡雅的乳酪風味，加上減糖減脂的健康概念，適合您闔家享用。</p>
+			</div>
+		</div>
+		<div class="views-field views-field-field-link" style="padding-left: 5px; padding-right: 5px; box-sizing: border-box; word-wrap: break-word; clear: left; float: left; width: 387.688px; margin-left: 0px; margin-right: -387.688px; color: rgb(82, 82, 82); font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+			<div class="field-content">
+				<a style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important; font-weight: bold; border-bottom: 2px solid rgba(111, 51, 40, 0.6);" href="http://www.originalcake.com.tw/node/16">
+				了解更多</a></div>
+		</div>
+</p>
+	</section>
+	
+	<section id="middle">
+	<img src="http://www.originalcake.com.tw/sites/default/files/styles/products_c/public/products/DSC_0907_2.jpg?itok=NFvs7XIb" class="w3-circle" alt="Norway" style="width:85%">
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Foriginalcake2000%2F&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	</section>
+
+	<aside id="sidebar"></aside>
+		 <div class="column2">
+       </div>
+ <div class="column">
+   
+		</div>
+</div></div>
+    
+  </div>
+</div>
+  </div>
+</div>
+  </aside>
+	
+	
+
+</div>
+
+
+
+	<div id="pagewrap">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+	
+	<section id="content">
+		<img src="http://www.originalcake.com.tw/sites/default/files/styles/products_c/public/products/DSC_9234.jpg?itok=yLF7_7D-" class="w3-circle" alt="Norway" style="width:50%" align=left ><div class="views-field views-field-title" style=" font-size: 24px; color: rgb(111, 51, 40); font-weight: bold; padding-left: 5px; padding-right: 5px; box-sizing: border-box; word-wrap: break-word; float: left; width: 387.688px;  margin-right: -387.688px; font-family: 微軟正黑體,  ">
+			<span class="field-content" style="display: inline-block; padding: 10px 15px; border: 1px solid rgb(111, 51, 40);">
+			人氣蛋糕</span>
+		<div class="views-field views-field-field-cake-name" style="margin-top: 70px; color: rgb(250, 71, 4); font-size: 20px; font-weight: bold; padding-left: 5px; padding-right: 5px; box-sizing: border-box; word-wrap: break-word; clear: left; float: left; width: 387.688px;  margin-right: -387.688px; font-family: 微軟正黑體,     ">
+			<div class="field-content">
+				爆漿巧克力口味</div>
+		</div>
+		
+		
+		<div class="views-field views-field-body" style="color: rgb(111, 51, 40); padding-left: 5px; padding-right: 5px; box-sizing: border-box; word-wrap: break-word; clear: left; float: left; width: 387.688px; margin-left: 0px; margin-right: -387.688px; font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+			<div class="field-content">
+				<p style="margin: 1.5em 0px;">
+				洋溢巧克力醇厚的香氣和質感綿密的口感裡，可以感受到巧克力的特濃可可的滋味，充滿幸福的魔力。</p>
+			</div>
+		</div>
+		<div class="views-field views-field-field-link" style="padding-left: 5px; padding-right: 5px; box-sizing: border-box; word-wrap: break-word; clear: left; float: left; width: 387.688px; margin-left: 0px; margin-right: -387.688px; color: rgb(82, 82, 82); font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+			<div class="field-content">
+				<a style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important; font-weight: bold; border-bottom: 2px solid rgba(111, 51, 40, 0.6);" href="http://www.originalcake.com.tw/node/16">
+				了解更多</a></div>
+		</div>
+</p>
+	</section>
+	
+	<section id="middle">
+	
+	</section>
+
+	<aside id="sidebar">
+		 <div class="column">
+ <div class="column">
+   
+		</div>
+</div></div>
+    
+  </div>
+</div>
+  </div>
+</div>
+  </aside>
+	
+	
+
+</div>
+
+
+		
+	<div id="container">
+
+			
+   <p>
+<ul style="color: rgb(111, 51, 40); font-family: 微軟正黑體, Helvetica, Arial; font-size: 36px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: bold; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;padding-left:505px">
+源味消息與活動</ul></p> 
+    <div class="views-field views-field-name"  style="padding-left:100px; margin-bottom: 10px;">
+
+					<span class="field-content" style="color: rgb(111, 51, 40); font-weight: bold; border-left: 2px solid rgb(111, 51, 40); padding-left: 10px;">
+					優惠活動</span></div>
+		
+	
+	<table align="center">
+  <tr>
+    <th><a href="http://www.originalcake.com.tw/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF/%E6%BA%90%E5%91%B3%E6%9C%AC%E9%8B%AA-4%E6%9C%88%E4%BB%BD%E5%A5%BD%E5%8F%8B%E5%B0%88%E5%B1%AC%E8%9B%8B%E7%B3%95%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80-%E6%9C%88%E6%9C%88%E6%8A%BD%E7%8D%8E%E6%B4%BB%E5%8B%95%E5%8F%88%E6%BA%96%E5%82%99%E8%A6%81%E9%96%8B%E8%B7%91%E4%BA%86">
+<img border="0" alt="W3Schools" src="http://www.originalcake.com.tw/sites/default/files/styles/news/public/news/3461D81B-87B4-4161-A560-CA0E6F4D0C6F.png?itok=WB_sAMwn" width="210" height="180" align=left >
+</a><div class="views-field views-field-title" style="float: right; width: 316.906px; margin-right: 0px; margin-left: -316.906px; font-weight: bold; font-size: 18px; padding: 20px 10px 10px;">
+											<a style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important;" href="http://www.originalcake.com.tw/sites/default/files/styles/news/public/news/3461D81B-87B4-4161-A560-CA0E6F4D0C6F.png?itok=WB_sAMwn">
+											源味本鋪 4月份[好友專屬]蛋糕買一送一 <br>月月抽獎活動又準備要開跑了!</a></div>
+										<div class="views-field views-field-body" style="clear: right; float: right; width: 316.906px; margin-right: 0px; margin-left: -316.906px; text-align: justify; padding: 0px 10px; margin-bottom: 40px; color:gray;">
+											源味本鋪 4月份[好友專屬]蛋糕買一送一 月月抽獎活動又準備要開跑了!</div>
+    
+        <div style="position: relative; border: px solid; width: 565px; height: 180px;">
+        <div style="position: absolute; color: #703429; bottom: 3px; right: 6px;">2017.3.28</div>
+    </div>
+    </div></th>
+    <th><a href="http://www.originalcake.com.tw/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF/%E6%BA%90%E5%91%B3%E6%9C%AC%E9%8B%AA-2%E6%9C%88%E4%BB%BD%E5%A5%BD%E5%8F%8B%E5%B0%88%E5%B1%AC%E8%9B%8B%E7%B3%95%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80-%E6%9C%88%E6%9C%88%E6%8A%BD%E7%8D%8E%E6%B4%BB%E5%8B%95%E5%8F%88%E6%BA%96%E5%82%99%E8%A6%81%E9%96%8B%E8%B7%91%E4%BA%86">
+<img border="0" alt="W3Schools" src="http://www.originalcake.com.tw/sites/default/files/styles/news/public/news/IMG_2424.jpeg?itok=tsRinJEE" width="210" height="180" align=left >
+</a><div class="views-field views-field-title" style="float: right; width: 316.906px; margin-right: 0px; margin-left: -316.906px; font-weight: bold; font-size: 18px; padding: 20px 10px 10px;">
+											<a style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important;" href="http://www.originalcake.com.tw/最新消息/源味本鋪-3月份好友專屬蛋糕買一送一-月月抽獎活動又準備要開跑了">
+											源味本鋪 3月份[好友專屬]蛋糕買一送一 月月抽獎活動又準備要開跑了!</a></div>
+										<div class="views-field views-field-body" style="clear: right; float: right; width: 316.906px; margin-right: 0px; margin-left: -316.906px; text-align: justify; padding: 0px 10px; margin-bottom: 40px;color:gray;">
+											周遭朋友還未加入我們的好友(ID:@originalcake)</div>
+    
+        <div style="position: relative; border: px solid; width: 565px; height: 180px;">
+        <div style="position: absolute; color: #703429; bottom: 3px; right: 6px;">2017.2.17</div>
+    </div>
+    </div></th>
+  </tr>
+  
+</table>
+<div class="views-field views-field-name"  style="padding-left:100px; margin-bottom: 10px;">
+	<span class="field-content" style="color: rgb(111, 51, 40); font-weight: bold; border-left: 2px solid rgb(111, 51, 40);padding-left: 10px; ">
+					媒體報導</span></div>
+
+<table align="center">
+  <tr>
+    <th><a href="http://www.originalcake.com.tw/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF/%E4%B8%89%E7%AB%8B%E6%96%B0%E8%81%9E%E5%8F%B0%EF%BD%9E%E4%BB%BF%E6%B7%A1%E6%B0%B4%E6%BA%90%E5%91%B3%E6%9C%AC%E9%8B%AA%E5%8F%A4%E6%97%A9%E5%91%B3%E8%9B%8B%E7%B3%95%E3%80%80%E9%9F%93%E9%80%A3%E9%8E%96%E5%BA%97%E3%80%8C%E5%A4%A7%E7%8E%8B%E5%8D%A1%E6%96%AF%E7%89%B9%E6%8B%89%E3%80%8D%E9%81%AD%E7%88%86%E9%9D%9E%E5%A4%A9%E7%84%B6">
+<img border="0" alt="W3Schools" src="http://www.originalcake.com.tw/sites/default/files/styles/news/public/news/2017-03-28%20at%206.21%20PM.png?itok=5j13qSae" width="210" height="170" align=left >
+</a><div class="views-field views-field-title" style="float: right; width: 316.906px; margin-right: 0px; margin-left: -316.906px; font-weight: bold; font-size: 18px; padding: pxpx px;">
+											<a style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important;" href="http://www.originalcake.com.tw/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF/%E4%B8%89%E7%AB%8B%E6%96%B0%E8%81%9E%E5%8F%B0%EF%BD%9E%E4%BB%BF%E6%B7%A1%E6%B0%B4%E6%BA%90%E5%91%B3%E6%9C%AC%E9%8B%AA%E5%8F%A4%E6%97%A9%E5%91%B3%E8%9B%8B%E7%B3%95%E3%80%80%E9%9F%93%E9%80%A3%E9%8E%96%E5%BA%97%E3%80%8C%E5%A4%A7%E7%8E%8B%E5%8D%A1%E6%96%AF%E7%89%B9%E6%8B%89%E3%80%8D%E9%81%AD%E7%88%86%E9%9D%9E%E5%A4%A9%E7%84%B6">
+											三立新聞台～仿淡水源味本鋪古早味蛋糕　韓連鎖店「大王卡斯特拉」遭爆非天然</a></div>
+										<div class="views-field views-field-body" style="clear: right; float: right; width: 316.906px; margin-right: 0px; margin-left: -316.906px; text-align: justify; padding: 0px 10px; margin-bottom: 40px;color:gray;">
+										三立新聞台～仿淡水源味本鋪古早味蛋糕　韓連鎖店「大王卡斯特拉」遭爆非天然</div>
+
+        <div style="position: relative; border: px solid; width: 565px; height: 180px;">
+        <div style="position: absolute; color: #703429; bottom: 3px; right: 6px;">2017.3.28</div>
+    </div>
+    </div>
+    </div></th>
+    <th><table align="center">
+  <tr>
+    <th><a href="http://www.originalcake.com.tw/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF/%E6%BA%90%E5%91%B3%E6%9C%AC%E9%8B%AA-2%E6%9C%88%E4%BB%BD%E5%A5%BD%E5%8F%8B%E5%B0%88%E5%B1%AC%E8%9B%8B%E7%B3%95%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80-%E6%9C%88%E6%9C%88%E6%8A%BD%E7%8D%8E%E6%B4%BB%E5%8B%95%E5%8F%88%E6%BA%96%E5%82%99%E8%A6%81%E9%96%8B%E8%B7%91%E4%BA%86">
+<img border="0" alt="W3Schools" src="http://www.originalcake.com.tw/sites/default/files/styles/news/public/news/2017-02-17%20at%207.39%20PM.png?itok=3r43npZB" width="210" height="180" align=left >
+</a><div class="views-field views-field-title" style="float: right; width: 316.906px; margin-right: 0px; margin-left: -316.906px; font-weight: bold; font-size: 18px; padding: 20px 10px 10px;">
+											<a style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important;" href="http://www.originalcake.com.tw/最新消息/源味本鋪-3月份好友專屬蛋糕買一送一-月月抽獎活動又準備要開跑了">
+											壹電視新聞台報導 源味本鋪現烤蛋糕店風靡韓國再攻馬來西亞吉隆坡！台古早味蛋糕夯 台灣之光</a></div>
+										<div class="views-field views-field-body" style="clear: right; float: right; width: 316.906px; margin-right: 0px; margin-left: -316.906px; text-align: justify; padding: 0px 10px; margin-bottom: 40px;color:gray;">
+										壹電視新聞台報導 源味本鋪現烤蛋糕店風靡韓國再攻馬來西亞吉隆坡！</div>
+
+        <div style="position: relative; border: px solid; width: 565px; height: 180px;">
+        <div style="position: absolute; color: #703429; bottom: 3px; right: 6px;">2017.2.17</div>
+    </div>
+    </div>
+    </div></th>
+  </tr>
+  
+</table></th>
+  </tr>
+ 
+</table>
+
+ 
+
+
+		
+	<div class="views-field views-field-name"  style="padding-left:100px; margin-bottom: 10px;">
+	<span class="field-content" style="color: rgb(111, 51, 40); font-weight: bold;border-left: 2px solid rgb(111, 51, 40); padding-left: 10px; ">
+					網友推薦</span></div>
+		
+   	<table align="center">
+  <tr>
+    <th><a href="http://www.originalcake.com.tw/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF/%E3%80%90%E6%8E%92%E9%98%9F3%E5%B0%8F%E6%97%B6%E4%B9%9F%E5%80%BC%E5%BE%97%E3%80%91%E5%8F%B0%E6%B9%BE%E6%9C%80%E8%91%97%E5%90%8D%E6%89%8B%E5%B7%A5%E9%B8%A1%E8%9B%8B%E7%B3%95%E2%80%9C%E6%9D%80%E2%80%9D%E5%88%B0%E5%A4%A7%E9%A9%AC%E5%95%A6%E2%9D%A4-%E5%85%A5%E5%8F%A3%E5%8D%B3%E5%8C%96%E7%9A%84%E3%80%8C%E9%BB%84%E9%87%91cheese%E3%80%8D%E5%A5%BD%E5%90%83%E5%88%B0%E4%B8%8A%E5%A4%A9%EF%BD%9E%EF%BD%9E%E4%B8%8D%E5%BF%85%E6%90%AD%E9%A3%9E%E6%9C%BA%E4%B9%9F%E8%83%BD%E5%B0%9D%E5%88%B0%E6%AD%A3%E5%AE%97%E5%A5%BD%E5%91%B3%E9%81%93%EF%BC%88%E3%83%8E%E2%89%A7%E2%88%80%E2%89%A6%EF%BC%89%E3%83%8E-viral-cham" align:left>
+<img border="0" alt="W3Schools" src="http://www.originalcake.com.tw/sites/default/files/styles/news/public/news/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-02-17%20%E4%B8%8B%E5%8D%886.07.25_0.png?itok=j3PZ_WmU" width="200" height="180" align=left >
+</a><div class="views-field views-field-title" style="float: right; width: 316.906px; margin-right: 0px; margin-left: -316.906px; font-weight: bold; font-size: 18px; padding: 20px 10px 10px;">
+											<a style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important;" href="http://www.originalcake.com.tw/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF/%E3%80%90%E6%8E%92%E9%98%9F3%E5%B0%8F%E6%97%B6%E4%B9%9F%E5%80%BC%E5%BE%97%E3%80%91%E5%8F%B0%E6%B9%BE%E6%9C%80%E8%91%97%E5%90%8D%E6%89%8B%E5%B7%A5%E9%B8%A1%E8%9B%8B%E7%B3%95%E2%80%9C%E6%9D%80%E2%80%9D%E5%88%B0%E5%A4%A7%E9%A9%AC%E5%95%A6%E2%9D%A4-%E5%85%A5%E5%8F%A3%E5%8D%B3%E5%8C%96%E7%9A%84%E3%80%8C%E9%BB%84%E9%87%91cheese%E3%80%8D%E5%A5%BD%E5%90%83%E5%88%B0%E4%B8%8A%E5%A4%A9%EF%BD%9E%EF%BD%9E%E4%B8%8D%E5%BF%85%E6%90%AD%E9%A3%9E%E6%9C%BA%E4%B9%9F%E8%83%BD%E5%B0%9D%E5%88%B0%E6%AD%A3%E5%AE%97%E5%A5%BD%E5%91%B3%E9%81%93%EF%BC%88%E3%83%8E%E2%89%A7%E2%88%80%E2%89%A6%EF%BC%89%E3%83%8E-viral-cham">
+										【排队3小时也值得!】台湾最著名手工鸡蛋糕“杀”到大马啦❤ 入口即化的「黄金Cheese」好吃到上天～～不必搭飞机也能尝到正宗好味道（ノ≧∀≦）ノ | Viral Cham</a></div>
+										<div class="views-field views-field-body" style="clear: right; float: right; width: 316.906px; margin-right: 0px; margin-left: -316.906px; text-align: justify; padding: 0px px; margin-bottom: 40px;color:gray;">
+											  網友推薦連結：http://viralcham.com/food/</div>
+    
+        <div style="position: relative; border: px solid; width: 565px; height: 230px;">
+        <div style="position: absolute; color: #703429; bottom: 3px; right: 6px;">2017.2.17</div>
+    </div>
+    </div></th>
+    <th><a style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important;" href="http://www.originalcake.com.tw/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF/%C2%A0%C2%A0%E5%8F%A4%E6%97%A9%E5%91%B3%E7%8F%BE%E7%83%A4%E8%9B%8B%E7%B3%95%E4%B9%9F%E8%B5%B0%E7%B2%BE%E7%B7%BB%E8%B7%AF%E7%B7%9A%EF%BC%81%EF%BC%81%E9%80%81%E7%A6%AE%E5%A5%BD%E5%90%83%E5%8F%88%E5%A4%A7%E6%96%B9%EF%BC%81%EF%BC%81">
+												<img typeof="foaf:Image" src="http://www.originalcake.com.tw/sites/default/files/styles/news/public/news/%E6%BA%90%E5%91%B3%E6%9C%AC%E9%8B%AA-1.jpg?itok=fPTUEucI" width="210" height="180" alt="" style="border: 0px; max-width: 100%; height: auto !important; width: 210px; float: left;" /></a></div>
+</a><div class="views-field views-field-title" style="float: right; width: 316.906px; margin-right: 10px; margin-left: -316.906px; font-weight: bold; font-size: 18px; padding: 10px 10px 10px;">
+											<a style="color: rgb(111, 51, 40); text-shadow: none; transition: all 0.3s ease-in; text-decoration: none; outline: none !important;" href="http://www.originalcake.com.tw/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF/%C2%A0%C2%A0%E5%8F%A4%E6%97%A9%E5%91%B3%E7%8F%BE%E7%83%A4%E8%9B%8B%E7%B3%95%E4%B9%9F%E8%B5%B0%E7%B2%BE%E7%B7%BB%E8%B7%AF%E7%B7%9A%EF%BC%81%EF%BC%81%E9%80%81%E7%A6%AE%E5%A5%BD%E5%90%83%E5%8F%88%E5%A4%A7%E6%96%B9%EF%BC%81%EF%BC%81">
+											  古早味現烤蛋糕也走精緻路線！！送禮好吃又大方！！</a></div>
+										<div class="views-field views-field-body" style="clear: right; float: right; width: 316.906px; margin-right: 0px; margin-left: -316.906px; text-align: justify; padding: 0px 10px; margin-bottom: 40px;color:gray;">
+										  古早味現烤蛋糕也走精緻路線！！送禮好吃又大方！！</div>
+    
+        <div style="position: relative; border: px solid; width: 550px; height: 200px;">
+        <div style="position: absolute; color: #703429; bottom: 3px; right: 6px;">2016.7.26</div>
+    </div></th>
+  </tr>
+  
+</table>
+<button onclick="topFunction()" id="myBtn" title="Go to top">BACK<br>TO TOP</button>
+	<div class="view-footer" style="color: rgb(82, 82, 82); font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+	<div class="more-link" style="text-align: center; margin-top: 20px;">
+		<a style="color: rgb(111, 51, 40); text-shadow: none; transition: 0.4s; text-decoration: none; outline: none !important; display: inline-block; position: relative; font-weight: bold; border: 1px solid rgb(111, 51, 40); padding: 8px 30px;" href="http://www.originalcake.com.tw/latest-news">
+		更多新訊</a></div>
+</div>
+<br><br><br>
+	<footer>
+<div style="width:300px;height:60px;float:left;padding:20px"><img   src="http://www.originalcake.com.tw/sites/default/files/imageblock/photo_12.png" align=left height=100px /></div>
+<div style="width:900px;height:60px;float:right;padding:30px">		<ul class="menu" style="margin: 0px; padding: 0px; color: rgb(255, 255, 255); font-family: 微軟正黑體, Helvetica, Arial; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+	<li class="menu__item is-expanded first expanded" style="list-style-image: none; list-style-type: none; text-align: left; width: 241.656px; float: left; font-size: 18px; font-weight: bold;">
+	<span style="display: inline-block; margin-bottom: 20px; text-align: left;">
+	關於源味</span><ul class="menu" style="margin: 0px; padding: 0px;">
+		<li class="menu__item is-leaf first leaf" style="list-style-image: none; list-style-type: none; font-size: 16px; font-weight: normal;">
+		<a class="menu__link" style="text-shadow: none; transition: all 0.2s ease-out; text-decoration: none; outline: none !important; display: inline-block; margin-bottom: 10px; text-align: left;" href="http://www.originalcake.com.tw/關於源味#block-views-about-us-block-1">
+		品牌故事</a></li>
+		<li class="menu__item is-leaf leaf" style="list-style-image: none; list-style-type: none; font-size: 16px; font-weight: normal;">
+		<a class="menu__link" style="text-shadow: none; transition: all 0.2s ease-out; text-decoration: none; outline: none !important; display: inline-block; margin-bottom: 10px; text-align: left;" href="http://www.originalcake.com.tw/關於源味#block-views-about-us-block-2">
+		用心製造</a></li>
+		<li class="menu__item is-leaf last leaf" style="list-style-image: none; list-style-type: none; font-size: 16px; font-weight: normal;">
+		<a class="menu__link" style="text-shadow: none; transition: all 0.2s ease-out; text-decoration: none; outline: none !important; display: inline-block; margin-bottom: 10px; text-align: left;" href="http://www.originalcake.com.tw/關於源味#block-views-about-us-block-3">
+		呼朋引伴</a></li>
+	</ul>
+	</li>
+	<li class="menu__item is-expanded expanded" style="list-style-image: none; list-style-type: none; text-align: left; width: 241.656px; float: left; font-size: 18px; font-weight: bold;">
+	<span style="display: inline-block; margin-bottom: 20px; text-align: left;">
+	特色蛋糕</span><ul class="menu" style="margin: 0px; padding: 0px;">
+		<li class="menu__item is-leaf first leaf" style="list-style-image: none; list-style-type: none; font-size: 16px; font-weight: normal;">
+		<a class="menu__link" style="text-shadow: none; transition: all 0.2s ease-out; text-decoration: none; outline: none !important; display: inline-block; margin-bottom: 10px; text-align: left;" href="http://www.originalcake.com.tw/古早味蛋糕口味/源味原味口味">
+		源味原味口味</a></li>
+		<li class="menu__item is-leaf leaf" style="list-style-image: none; list-style-type: none; font-size: 16px; font-weight: normal;">
+		<a class="menu__link" style="text-shadow: none; transition: all 0.2s ease-out; text-decoration: none; outline: none !important; display: inline-block; margin-bottom: 10px; text-align: left;" href="http://www.originalcake.com.tw/古早味蛋糕口味/黃金起司口味">
+		黃金起司口味</a></li>
+		<li class="menu__item is-leaf leaf" style="list-style-image: none; list-style-type: none; font-size: 16px; font-weight: normal;">
+		<a class="menu__link" style="text-shadow: none; transition: all 0.2s ease-out; text-decoration: none; outline: none !important; display: inline-block; margin-bottom: 10px; text-align: left;" href="http://www.originalcake.com.tw/古早味蛋糕口味/肉鬆海苔口味">
+		肉鬆海苔口味</a></li>
+		<li class="menu__item is-leaf leaf" style="list-style-image: none; list-style-type: none; font-size: 16px; font-weight: normal;">
+		<a class="menu__link" style="text-shadow: none; transition: all 0.2s ease-out; text-decoration: none; outline: none !important; display: inline-block; margin-bottom: 10px; text-align: left;" href="http://www.originalcake.com.tw/古早味蛋糕口味/爆漿巧克力口味">
+		爆漿巧克力口味</a></li>
+		<li class="menu__item is-leaf leaf" style="list-style-image: none; list-style-type: none; font-size: 16px; font-weight: normal;">
+		<a class="menu__link" style="text-shadow: none; transition: all 0.2s ease-out; text-decoration: none; outline: none !important; display: inline-block; margin-bottom: 10px; text-align: left;" href="http://www.originalcake.com.tw/古早味蛋糕口味/香蕉牛奶口味">
+		香蕉牛奶口味</a></li>
+		<li class="menu__item is-leaf leaf" style="list-style-image: none; list-style-type: none; font-size: 16px; font-weight: normal;">
+		<a class="menu__link" style="text-shadow: none; transition: all 0.2s ease-out; text-decoration: none; outline: none !important; display: inline-block; margin-bottom: 10px; text-align: left;" href="http://www.originalcake.com.tw/古早味蛋糕口味/杏仁堅果口味">
+		杏仁堅果口味</a></li>
+		<li class="menu__item is-leaf leaf" style="list-style-image: none; list-style-type: none; font-size: 16px; font-weight: normal;">
+		<a class="menu__link" style="text-shadow: none; transition: all 0.2s ease-out; text-decoration: none; outline: none !important; display: inline-block; margin-bottom: 10px; text-align: left;" href="http://www.originalcake.com.tw/古早味蛋糕口味/養身桂圓口味">
+		養身桂圓口味</a></li>
+		<li class="menu__item is-leaf last leaf" style="list-style-image: none; list-style-type: none; font-size: 16px; font-weight: normal;">
+		<a class="menu__link" style="text-shadow: none; transition: all 0.2s ease-out; text-decoration: none; outline: none !important; display: inline-block; margin-bottom: 10px; text-align: left;" href="http://www.originalcake.com.tw/古早味蛋糕口味/蔓越莓口味">
+		蔓越莓口味</a></li>
+	</ul>
+	</li>
+	<li class="menu__item is-expanded last expanded" style="list-style-image: none; list-style-type: none; text-align: left; width: 241.656px; float: left; font-size: 18px; font-weight: bold;">
+	<span style="display: inline-block; margin-bottom: 20px; text-align: left;">
+	分店資訊</span><ul class="menu" style="margin: 0px; padding: 0px;">
+		<li class="menu__item is-leaf first leaf" style="list-style-image: none; list-style-type: none; font-size: 16px; font-weight: normal;">
+		<a class="menu__link" style="text-shadow: none; transition: all 0.2s ease-out; text-decoration: none; outline: none !important; display: inline-block; margin-bottom: 10px; text-align: left;" href="http://www.originalcake.com.tw/分店資訊/淡水中正路清水街市場創始店">
+		淡水中正路清水街市場創始店</a></li>
+		<li class="menu__item is-leaf leaf" style="list-style-image: none; list-style-type: none; font-size: 16px; font-weight: normal;">
+		<a class="menu__link" style="text-shadow: none; transition: all 0.2s ease-out; text-decoration: none; outline: none !important; display: inline-block; margin-bottom: 10px; text-align: left;" href="http://www.originalcake.com.tw/分店資訊/淡水捷運站旁公明街站前店">
+		淡水捷運站旁公明街站前店</a></li>
+		<li class="menu__item is-leaf leaf" style="list-style-image: none; list-style-type: none; font-size: 16px; font-weight: normal;">
+		<a class="menu__link" style="text-shadow: none; transition: all 0.2s ease-out; text-decoration: none; outline: none !important; display: inline-block; margin-bottom: 10px; text-align: left;" href="http://www.originalcake.com.tw/分店資訊/淡水中正路老街旗艦店">
+		淡水中正路老街旗艦店</a></li>
+		<li class="menu__item is-leaf last leaf" style="list-style-image: none; list-style-type: none; font-size: 16px; font-weight: normal;">
+		<a class="menu__link" style="text-shadow: none; transition: all 0.2s ease-out; text-decoration: none; outline: 0px; display: inline-block; margin-bottom: 10px; text-align: left;" href="http://www.originalcake.com.tw/分店資訊/台北市士林大南路士林店">
+		台北市士林大南路士林店</a></li>
+	</ul>
+	</li>
+</ul>
+  <div style="position: relative; border: px solid; width: 1300px; height: 400px;">
+        <div style="position: absolute; color: white; bottom: 1px; left: px;">Copyright &copy; 2015 <a href="http://www.originalcake.com.tw/user/login">OriginalCake</a> 
+         
+
+
+    </div><div style="position: relative; border: px solid; width: 1300px; height: 470px;">
+        <div style="position: absolute; color: white; bottom: 1px; left:  300px;">
+         <div style="position: relative; border: px solid; width: ; height: 120px;">
+        <div style="position: absolute; background-color:white; right: 0;">
+
+ <a href="https://www.facebook.com/originalcake2000/">
+<img border="" alt="W3Schools" src="https://image.flaticon.com/icons/svg/54/54065.svg" width="50" height="50 ">
+</a></div></div>
+    </div>
+    <div style="position: relative; border: px solid; width: 1300px; height: 470px;">
+        <div style="position: absolute; color: white; bottom: 1px; left: 350px;">
+         <div style="position: relative; border: px solid; width: ; height: 120px;">
+        <div style="position: absolute; background-color:white;color: blue; right: 0;">
+
+ <a href="tel:0282273788">
+<img border="" alt="W3Schools" src="http://www.msqq.com/d/file/icon/2014-01-20/4dfdd373ffec20d6b8d0090557b9d82d.png" width="50" height="50">
+</a></div>
+
+    </div></div>
+       <div style="position: relative; border: px solid; width: 1300px; height: 470px;">
+        <div style="position: absolute; color: white; bottom: 1px; left: 650px;">
+         <div style="position: relative; border: px solid; width: ; height: 120px;">
+        <div style="position: absolute; background-color:white;color: blue; right: 0;">
+
+
+<img border="" alt="W3Schools" src="http://www.originalcake.com.tw/sites/default/files/imageblock/photo_10.png" width="100" height="100">
+</div>
+
+    </div></div>
+</div>
+    </div></div>
+    </div>
+
+</div>
+</div>
+</div>
+
+</footer>
+<body>
+   <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>   </body>
 
 </html>
 
